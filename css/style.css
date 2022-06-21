@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Palatino Linotype";
+    color: #777;
+}
+
+.bgimg-1 {
+    background-image: url("../images/Coverbild.jpg");
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.title {
+    color: #32381e;
+    padding: 1rem;
+    border-radius: 20px;
+    --bs-bg-opacity: .65;
+}
+
+.titleDiv {
+    top: 35%;
+}
+
+.quote {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 20%;
+}
+
+.text {
+    color: #474f2d;
+    width: 100%;
+    text-align: justify;
+}
+
+
+
+
