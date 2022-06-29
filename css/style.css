@@ -7,8 +7,6 @@ body, html {
 
 .bgimg-1 {
     background-image: url("../images/Coverbild.jpg");
-    height: 100%;
-    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,22 +14,30 @@ body, html {
     filter: grayscale(100%);
 }
 
-.title {
-    color: #32381e;
-    padding: 1rem;
-    border-radius: 20px;
-    --bs-bg-opacity: .65;
+#character_justify {
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
 }
 
-.titleDiv {
-    top: 35%;
+#character_justify * {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.title {
+    color: #32381e;
+    border-radius: 20px;
+    --bs-bg-opacity: .65;
 }
 
 .quote {
     position: relative;
     width: 100%;
     text-align: center;
-    padding: 1rem 20%;
 }
 
 .text {
