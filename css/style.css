@@ -2,9 +2,10 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Palatino Linotype";
-    color: #777;
+    color: #000000;
 }
 
+/*startseite*/
 .bgimg-1 {
     background-image: url("../images/Coverbild.jpg");
     background-position: center;
@@ -41,11 +42,15 @@ body, html {
 }
 
 .text {
-    color: #474f2d;
     width: 100%;
     text-align: justify;
 }
 
 
+/*2seite*/
+.bg-grey{
+    background-color: #dbd6d4;
+}
 
+/**/
 
