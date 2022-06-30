@@ -1,12 +1,20 @@
 body, html {
     height: 100%;
     margin: 0;
-    font: 400 15px/1.8 "Palatino Linotype";
-    color: #000000;
+    font: 400 1.2rem/1.4em "Palatino";
+    letter-spacing: 0.3em;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    body, html {
+        font-size: 0.9rem;
+        letter-spacing: 0.2em;
+    }
 }
 
 /*startseite*/
-.bgimg-1 {
+.mainImg {
     background-image: url("../images/Coverbild.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +26,6 @@ body, html {
 #character_justify {
     position: relative;
     width: 100%;
-    font-size: 1.5rem;
     margin: 0;
     padding: 0;
 }
@@ -30,7 +37,6 @@ body, html {
 }
 
 .title {
-    color: #32381e;
     border-radius: 20px;
     --bs-bg-opacity: .65;
 }
@@ -44,6 +50,18 @@ body, html {
 .text {
     width: 100%;
     text-align: justify;
+}
+
+@media (max-width: 1024px) {
+    .text {
+        text-align: start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .break-md {
+        text-align: start;
+    }
 }
 
 
