@@ -1,6 +1,5 @@
 body, html {
     height: 100%;
-    margin: 0;
     font: 400 1.2rem/1.4em "Palatino";
     letter-spacing: 0.3em;
     position: relative;
@@ -52,11 +51,11 @@ body, html {
     text-align: justify;
 }
 
-@media (max-width: 1024px) {
-    .text {
-        text-align: start;
-    }
-}
+/*@media (max-width: 1024px) {*/
+/*    .text {*/
+/*        text-align: start;*/
+/*    }*/
+/*}*/
 
 @media (min-width: 1024px) {
     .break-md {
@@ -64,11 +63,68 @@ body, html {
     }
 }
 
+.nav-link {
+    padding: 0;
+}
 
-/*2seite*/
-.bg-grey{
+
+/*2. seite*/
+.bg-grey {
+    background-image: url("../images/Notenschlüssel.png");
+    background-position: center top 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #dbd6d4;
 }
 
-/**/
+/*3. seite*/
+.bg-grey {
+    background-color: #eeeeef;
+}
+
+.button-link {
+    text-decoration: none;
+    letter-spacing: 0;
+    background-image: url("../images/button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-musikalische-untermalung {
+    background: #bfab8f;
+}
+
+.bg-klavierunterricht {
+    background: #c4b19e;
+}
+
+.bg-gesangscoaching {
+    background: #c1bbb7;
+}
+
+.bg-foamwhite {
+    background: #c1bdbc;
+}
+
+/*Preise*/
+.text-vertical-display {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.position{
+
+}
+
+.bg-preise{
+    background-color: #e6d5b8;
+}
+
+.price-box{
+    max-width: 80%;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 15%;
+}
 

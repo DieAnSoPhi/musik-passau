@@ -6,60 +6,333 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/script.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Musik-passau</title>
 </head>
 
-<header data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" >
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#main" class="nav-link">Start</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#seite2" class="nav-link">Seite 2</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<body onload="Justify()" onresize="Justify()" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="200">
 
-<body onload="Justify()" onresize="Justify()">
+<!--navigation-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="letter-spacing: 0.1em; font-size: .9rem">
+    <div class="container-fluid">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#main" class="nav-link">Start</a>
+            </li>
+            <li class="nav-item">
+                <a href="#seite2" class="nav-link">Musik</a>
+            </li>
+            <li class="nav-item">
+                <a href="#seite3" class="nav-link">Angebote</a>
+            </li>
+            <li class="nav-item">
+                <a href="#gesangscoaching" class="nav-link">Gesangscoaching</a>
+            </li>
+            <li class="nav-item">
+                <a href="#klavierunterricht" class="nav-link">Klavierunterricht</a>
+            </li>
+            <li class="nav-item">
+                <a href="#musikalische-untermalung" class="nav-link">Auftritte</a>
+            </li>
+            <li class="nav-item">
+                <a href="#preise" class="nav-link">Preise</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
+<!--titelseite-->
 <div id="main" class="container-fluid mainImg">
     <div class="align-items-center row justify-content-center" style="min-height: 100vh">
         <div class="col-sm-9 my-2">
-            <div class="text-black h1">
+            <div class="text-black h1 pb-2">
                 <div class="character_justify">ganzheitlicher Musikunterricht</div>
             </div>
             <div class="text">
-                Schon Musik hören macht etwas mit uns. Es kann uns fröhlich machen, an etwas erinnern oder Gefühle zum Fliessen bringen.
+                Schon Musik hören macht etwas mit uns. Es kann uns fröhlich machen, an etwas erinnern oder Gefühle zum
+                Fliessen bringen.
                 Wieviel mehr macht es mit uns, selbst Musik zu machen!
                 <br>
                 <br>
-                Wir lernen dabei über Grenzen hinauszuwachsen oder sich zu trauen uns vor anderen zu zeigen, auszudrücken was wir fühlen, Freude daran zu haben wer wir sind und was wir können und anderen Freude zu schenken beim Zuhören.
+                Wir lernen dabei über Grenzen hinauszuwachsen oder sich zu trauen uns vor anderen zu zeigen,
+                auszudrücken was wir fühlen, Freude daran zu haben wer wir sind und was wir können und anderen Freude zu
+                schenken beim Zuhören.
             </div>
         </div>
     </div>
 </div>
 
+<!--2. Seite-->
 <div id="seite2" class="container-fluid bg-grey">
-    <div class="align-items-center row justify-content-center" style="min-height: 100vh">
-        <div class="col-sm-9 my-2">
-            <div class="text-black h1">
+    <div class="align-items-center row justify-content-center" style="min-height: 80vh">
+        <div class="col-md-7 my-2">
+            <div class="text-black h1 pb-2">
                 <div style="text-align: center; letter-spacing: .5em">
-                    "Ohne Musik wäre
+                    „Ohne Musik wäre
                 </div>
                 <div class="character_justify">
-                    das Leben ein Irrtum"
+                    das Leben ein Irrtum“
                 </div>
             </div>
             <div class="text">
-                In unserer Welt schwingen Millionen Frequenzen, ohne die unser Dasein undenkbar wäre, so auch Musik. Die Wellen der Töne durchdringen mit Leichtigkeit unsere festen Körper und verhelfen mit ihren Schwingungen zu großen und kleinen Wundern. Musik dringt bis in unsere Seele und kann uns auf viele Arten verändern, neue Erfahrungen schenken und erfreuen. Lass Dir diese Erfahrung nicht entgehen!
+                In unserer Welt schwingen Millionen Frequenzen, ohne die unser Dasein undenkbar wäre, so auch Musik. Die
+                Wellen der Töne durchdringen mit Leichtigkeit unsere festen Körper und verhelfen mit ihren Schwingungen
+                zu großen und kleinen Wundern. Musik dringt bis in unsere Seele und kann uns auf viele Arten verändern,
+                neue Erfahrungen schenken und erfreuen. Lass Dir diese Erfahrung nicht entgehen!
             </div>
         </div>
     </div>
 </div>
+
+<!--angebote-->
+<div id="seite3" class="container-fluid bg-foamwhite">
+    <div class="align-items-center row justify-content-center"
+         style="min-height: 80vh; font-size: 0.8rem; line-height: 1.4em; letter-spacing: 0.3em">
+        <div class="col-md-3 my-2">
+            <div class="overflow-hidden">
+                <img src="images/klavierunterricht.JPG" alt="Sängerin"
+                     style="object-fit: none; object-position: center; width: 100%; height: 40vh"/>
+            </div>
+            <div class="text-black py-4">
+                Halb so schwer - Erfülle dir Deinen Traum vom Klavierspielen
+            </div>
+            <div class="text-center p-2">
+                <a class="text-black button-link overflow-visible p-1" href="#klavierunterricht">
+                    mehr erfahren
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="overflow-hidden">
+                <img src="images/musikalische-untermalung.JPG" alt="Sängerin"
+                     style="object-fit: none; object-position: center; width: 100%; height: 40vh"/>
+            </div>
+            <div class="text-black py-4">
+                Traummusik - Mach Dein Fest zu etwas ganz Besonderem
+            </div>
+            <div class="text-center p-2">
+                <a class="text-black button-link overflow-visible p-1" href="#musikalische-untermalung">
+                    mehr erfahren
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="overflow-hidden">
+                <img src="images/gesangsunterricht.JPG" alt="Sängerin"
+                     style="object-fit: none; object-position: center; width: 100%; height: 40vh"/>
+            </div>
+            <div class="text-black py-4">
+                Singen macht Freude und stärkt das Selbstbewusstsein
+            </div>
+            <div class="text-center p-2">
+                <a class="text-black button-link overflow-visible p-1" href="#gesangscoaching">
+                    mehr erfahren
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--gensangscoaching-->
+<div id="gesangscoaching" class="container-fluid bg-gesangscoaching">
+    <div class="align-items-center row justify-content-center" style="min-height: 80vh">
+        <div class="col-md-5 my-2">
+            <div class="text-black h1 pb-2">
+                <div style="text-align: right; letter-spacing: .5em; margin-right: -.5em">
+                    ganzheitliches
+                </div>
+                <div class="character_justify">
+                    Gesangscoaching
+                </div>
+            </div>
+            <div class="text" style="font-size: .9rem; line-height: 1.4em; letter-spacing: .1em">
+                Viele Menschen denken sie können nicht singen, aber das ist nicht wahr. Singen ist entdecken, am meisten
+                Dich selbst. Du bist ein Instrument und es ist nur natürlich, wenn Du ein Instrument noch nie so richtig
+                benutzt hast, dass Du es auch nicht spielen kannst.
+                <br>
+                <br>
+                Nichts anderes ist das beim Singen. Du musst einfach herausfinden, wie du funktionierst. Es ist ganz
+                einfach und auch sehr wichtig in deinem Körper Begeisterung dafür zu wecken, sodass Unsicherheit und
+                Angst weichen muss. Wenn du erst einmal gespürt hast, dass alle Töne eigentlich schon da sind und du nur
+                Raum schaffen musst für sie, kommst du von der Leistungsebene auf die Entdeckerebene, auf der man sich
+                mit großer Leichtigkeit schnell weiterentwickeln kann. Denn was dein Körper annimmt, das wird sogleich
+                der Boden für den nächsten Lernschritt.
+                <br>
+                <br>
+                Mit dieser fantastischen Lernmethode erhältst du große Kompetenz. Du lernst wirklich zu bestimmen, was
+                aus deinem Mund herauskommen soll. Es gibt ja viele verschiedene Musikstile und dann ist da noch dein
+                persönlicher Charakter. All das will sich in einer ziemlichen Bandbreite ausdrücken, erst dann macht es
+                richtig Freude.
+                <br>
+                <br>
+                Natürlich ist auch eine absolut gesunde Gesangstechnik das Ergebnis dieser Herangehensweise. Nur was
+                reibungslos funktioniert kann mit Leichtigkeit und Freiheit präsentiert werden und die Freude an Deiner
+                Stimme soll Dir möglichst lange erhalten bleiben.
+            </div>
+        </div>
+        <div class="col-md-4 my-2 mx-5">
+            <img src="images/gesangsunterricht.JPG" alt="Sängerin"
+                 style="object-fit: none; object-position: center; width: 100%; height: 70vh"/>
+        </div>
+    </div>
+</div>
+
+<!--klavierunterricht-->
+<div id="klavierunterricht" class="container-fluid bg-klavierunterricht">
+    <div class="align-items-center row justify-content-center" style="min-height: 80vh">
+        <div class="col-md-4 my-2 mx-5">
+            <img src="images/klavierunterricht.JPG" alt="Sängerin"
+                 style="object-fit: none; object-position: center; width: 100%; height: 70vh"/>
+        </div>
+        <div class="col-md-5 my-2">
+            <div class="text-black h1 pb-2">
+                <div style="text-align: left; letter-spacing: .3em; margin-right: -.3em">
+                    ganzheitlicher
+                </div>
+                <div class="character_justify">
+                    Klavierunterricht
+                </div>
+            </div>
+            <div class="text" style="font-size: .9rem; line-height: 1.4em; letter-spacing: .1em">
+                Klavierspielen hat meiner Meinung nach einen ganz besonderen Zauber. Nicht nur wie viele verschiedene
+                Musikstile man auf einem Klavier wunderbar ausdrücken kann, auch wie leicht man durch die
+                Klaviertastatur Musiktheorie verstehen kann oder wie man mit wenig schon so viel Wohlklingendes
+                herausholen kann, um nur einige Beispiele zu nennen.
+                <br>
+                <br>
+                Da ich selbst als Erwachsene erst angefangen habe Klavier zu spielen, unterrichte ich besonders gerne
+                „Spätstarter“, da ich mich gut in sie hineinversetzen kann. Erwachsene lernen sehr bewusst und das kann
+                viel Freude machen, denn man lernt dabei auch einiges über sich selbst und es ist sehr wertvoll im oft
+                stressigen Alltag etwas zu haben, wo man ganz bei sich ankommt und einen ganz anderen Fokus als
+                gewöhnlich hat. Natürlich sind auch Kinder herzlich bei mir willkommen.
+                <br>
+                <br>
+                Dank dem ganzheitlichen Unterrichtskonzept namens „Schneemanns Traum“, das auf den Erkenntnissen der
+                Gehirnforschung basiert, lernen bei mir Kinder und Erwachsene schnell(er) und einfach(er) Klavier
+                spielen. Ich lerne meinen Schülern auch von Anfang an Musiktheorie auf spannende Art und Weise zu
+                verstehen und anzuwenden, z. B. in Bezug auf einfacher Begleitung von sämtlichen Lieder mit Akkorden.
+                <br>
+                <br>
+                Es ist mir auch wichtig auf Deine Vorlieben, was Musik angeht, einzugehen. Denn was Freude macht, das
+                motiviert und das ist das Allerwichtigste beim Lernen!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--auftritte-->
+<div id="musikalische-untermalung" class="container-fluid bg-musikalische-untermalung">
+    <div class="d-flex align-items-end">
+        <div style="margin-top: 10%">
+            <div class="container-fluid mx-5 mb-4 h1"
+                 style="text-align: left; letter-spacing: .3em; margin-right: -.3em">
+                musikalische Untermalung
+            </div>
+            <div class="row mx-5">
+                <div class="col-4">
+                    <div class="text" style="font-size: .9rem; line-height: 1.4em; letter-spacing: .1em">
+                        Ich singe für mein Leben gern und liebe es, die passende Musik zu Eurem Fest (kirchliche oder
+                        standesamtliche Hochzeit oder Taufe) beizusteuern. Zusammen mit der wunderschönen Stimme von
+                        meinem
+                        Gesangspartner Christopher Edelmann, wollen wir gerne eure Herzen berühren und euer Fest noch
+                        feierlicher und professionell mitgestalten. Wir singen im Duett aus sämtlichen Musikrichtungen
+                        mit
+                        Klavierbegleitung. Gerne senden wir euch weitere Hörproben und unser Repertoire zu, auch
+                        Wunschlieder sind möglich.
+                        <br>
+                        <br>
+                        Ein Stage-Piano für die Klavierbegleitung ist vorhanden und wird bei Auftritten kostenlos
+                        gestellt.
+                    </div>
+                    <div class="h3 mt-5">
+                        Hier könnte Ihre Hörprobe stehen!
+                    </div>
+                </div>
+                <div class="col-7 ms-4">
+                    <img src="images/musikalische-untermalung.JPG" alt="Sängerin" class="bg-primary"
+                         style="object-fit: none; object-position: top; width: 100%; height: 100%"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--preise-->
+<div id="preise" class="container-fluid bg-preise">
+    <div class="text-center py-5">
+        <h1>Preise</h1>
+    </div>
+
+    <!--bilder reihe-->
+    <div class="row mx-3" >
+        <div class="col-lg-4 px-5">
+            <div class="row">
+                <div class="text-vertical-display text-end col-auto">
+                    <p>Klavierunterricht</p>
+                </div>
+                <div class="overflow-hidden  col">
+                    <img src="images/klavierunterricht.JPG" alt="Klavierunterricht"
+                         style="object-fit: none; object-position: center; width: 100%; height: 50vh">
+                </div>
+            </div>
+            <div class="price-box p-2">
+                <p style="font-size: .7em">
+                    Einzelstunde:<br>
+                    45 Minuten / 30 €<br>
+                    30 Minuten / 20 €<br><br>
+                    Vertrag: <br>
+                    45 Min. pro Woche / 90 € mtl. <br>
+                    30 Min. pro Woche / 60 € mtl.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 px-5">
+            <div class="row">
+                <div class="text-vertical-display text-end col-auto ">
+                    <p>Gesangscoaching</p>
+                </div>
+                <div class="overflow-hidden col  ">
+                    <img src="images/gesangsunterricht.JPG" alt="Klavierunterricht"
+                         style="object-fit: none; object-position: center; width: 100%; height: 50vh">
+                </div>
+            </div>
+            <div class="price-box p-2">
+                <p style="font-size: .7em">
+                    Einzelstunde:<br>
+                    45 Minuten / 35 €<br><br><br><br>
+                    Vertrag: <br>
+                    45 Min. pro Woche / 90 € mtl. <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 px-5">
+            <div class="row">
+                <div class="text-vertical-display text-end  col-auto ">
+                    <p>Musikalische Untermalung</p>
+                </div>
+                <div class="overflow-hidden col  ">
+                    <img src="images/musikalische-untermalung.JPG" alt="Klavierunterricht"
+                         style="object-fit: none; object-position: center; width: 100%; height: 50vh">
+                </div>
+            </div>
+            <div class="price-box p-2">
+                <p style="font-size: .7em">
+                    Einzelstunde:<br>
+                    45 Minuten / 35 €<br><br><br><br>
+                    Vertrag: <br>
+                    45 Min. pro Woche / 90 € mtl. <br>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
 
 </body>
 </html>
