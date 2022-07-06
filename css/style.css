@@ -1,5 +1,7 @@
 body, html {
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     font: 400 1.2rem/1.4em "Palatino";
     letter-spacing: 0.3em;
     position: relative;
@@ -127,4 +129,12 @@ body, html {
     position: relative;
     bottom: 15%;
 }
+/* Übermich*/
+.bg-übermich{
+    background-color: darkgrey;
+}
 
+/*Ausbildung*/
+.bg-ausbildung{
+    background-color: darkgrey;
+}
