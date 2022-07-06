@@ -13,15 +13,16 @@
 <body onload="Justify()" onresize="Justify()" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="200">
 
 <!--navigation-->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="letter-spacing: 0.1em; font-size: .9rem">
+<nav class="navbar navbar-expand-sm navbar-nav-scroll bg-dark navbar-dark fixed-top collapse.navbar-collapse"
+     style="letter-spacing: 0.1em; font-size: .9rem">
     <div class="container-fluid">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a href="#main" class="nav-link">Start</a>
             </li>
-            <li class="nav-item">
-                <a href="#seite2" class="nav-link">Musik</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a href="#seite2" class="nav-link">Musik</a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a href="#seite3" class="nav-link">Angebote</a>
             </li>
@@ -40,8 +41,11 @@
             <li class="nav-item">
                 <a href="#über-mich" class="nav-link">Über mich</a>
             </li>
+<!--            <li class="nav-item">-->
+<!--                <a href="#Ausbildung" class="nav-link">Ausbildung</a>-->
+<!--            </li>-->
             <li class="nav-item">
-                <a href="#Ausbildung" class="nav-link">Ausbildung</a>
+                <a href="#Schülerstimmen" class="nav-link">Schülerstimmen</a>
             </li>
         </ul>
     </div>
@@ -68,7 +72,7 @@
     </div>
 </div>
 
-<!--2. Seite-->
+<!--Ohne Musik-->
 <div id="seite2" class="container-fluid bg-grey">
     <div class="align-items-center row justify-content-center" style="min-height: 80vh">
         <div class="col-md-7">
@@ -413,13 +417,14 @@
 <!--Ausbildung-->
 <div id="Ausbildung" class="bg-ausbildung p-5 mt-3">
 
-    <div class="row" style="font-size: .9rem; line-height: 1.4em; letter-spacing: .1em">
+    <div class="row" style="font-size: .9rem; line-height: 1.4em; letter-spacing: .3em">
         <div class="col-sm">
             <h1>Ausbildung</h1>
             <p>Zweijährige Vollzeitausbildung in der Berufsfachschule für Musik in den Fächern Klavier, Ensembleleitung,
                 Blockflöte, Elementare Musikpädagogik, Unterrichtsmethodik und Stimmbildung<br><br>
                 Gesangsworkshop und Einzelunterricht in Speech Level Singing nach Seth Riggs bei Stephanie Borm</p>
         </div>
+
         <div class="col-sm">
             <h1>Referenzen</h1>
             <p>Unterricht in Klavier, Gesang, Sopranblockflöte<br>
@@ -433,6 +438,71 @@
     </div>
 
 </div>
+
+
+<!--Schülerstimmen-->
+<div id="Schülerstimmen" class="bg-schülerstimmen p-5">
+
+    <div class="row text-center mb-5">
+        <h1>Schülerstimmen</h1>
+    </div>
+
+    <!--Carousel-->
+    <div id="stimmen" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="container row">
+                    <div class="col-sm">
+                        <img src="images/Jasmin_foto.png" alt="Los Angeles">
+                    </div>
+                    <div class="col-sm">
+                        <h5>Laura, 18, Klavierschülerin seit 2019</h5>
+                        <p>Der Unterricht bei Jasmin macht mir unglaublich viel Spaß. Sie hat mir gezeigt, dass man nie
+                            zu
+                            alt ist, um das Spielen eines komplett neuen Instrumentes zu erlernen und motiviert mich mit
+                            ihrer lockeren Art und ihrer besonderen Unterrichtsmethoden jede Woche auf's Neue. Ich bin
+                            sehr
+                            froh darüber, den Kontakt mit ihr aufgenommen zu haben.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="container row">
+                    <div class="col-sm">
+                        <img src="images/musikalische-untermalung.JPG" alt="Chicago">
+                    </div>
+                    <div class="col-sm">
+                        <h5>Laura, 18, Schülerin seit 2019</h5>
+                        <p>Der Unterricht bei Jasmin macht mir unglaublich viel Spaß. Sie hat mir gezeigt, dass man
+                            nie
+                            zu
+                            alt ist, um dad Spielen eines komplett neuen Instrumentes zu erlernen und motiviert mich
+                            mit
+                            ihrer lockeren Art und ihrer besonderen Unterrichtsmethoden jede Woche auf's Neue. Ich
+                            bin
+                            sehr
+                            froh darüber, den Kontakt mit ihr aufgenommen zu haben.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Pfeile rechts und links-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#stimmen" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#stimmen" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+</div>
+
+
 
 </body>
 </html>

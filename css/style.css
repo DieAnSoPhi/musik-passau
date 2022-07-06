@@ -70,18 +70,18 @@ body, html {
 }
 
 
-/*2. seite*/
+/*Ohne Musik*/
 .bg-grey {
     background-image: url("../images/Notenschlüssel.png");
     background-position: center top 70%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #dbd6d4;
+    background-color: #dfdad7;
 }
 
-/*3. seite*/
+/*Ohne Musik*/
 .bg-grey {
-    background-color: #eeeeef;
+    background-color: #dfdad7;
 }
 
 .button-link {
@@ -102,11 +102,12 @@ body, html {
 }
 
 .bg-gesangscoaching {
-    background: #c1bbb7;
+    background: #e0c8bc;
 }
 
+/*Angebote*/
 .bg-foamwhite {
-    background: #c1bdbc;
+    background: #eeeeee;
 }
 
 /*Preise*/
@@ -115,9 +116,7 @@ body, html {
     transform: rotate(180deg);
 }
 
-.position{
-
-}
+.position{}
 
 .bg-preise{
     background-color: #e6d5b8;
@@ -137,4 +136,9 @@ body, html {
 /*Ausbildung*/
 .bg-ausbildung{
     background-color: darkgrey;
+}
+
+/*Schülerstimmen*/
+.bg-schülerstimmen{
+    background-color: #e3c2a0;
 }
