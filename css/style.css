@@ -146,4 +146,8 @@ body, html {
 /*kontakt*/
 .bg-kontakt{
     background-image: url("../images/Kontakt_background.jpg") ;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
