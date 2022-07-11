@@ -142,3 +142,8 @@ body, html {
 .bg-schülerstimmen{
     background-color: #e3c2a0;
 }
+
+/*kontakt*/
+.bg-kontakt{
+    background-image: url("../images/Kontakt_background.jpg") ;
+}
