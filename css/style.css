@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
     max-width: 100%;
-    overflow-x: hidden;
     font: 400 1.2rem/1.4em "Palatino";
     letter-spacing: 0.3em;
     position: relative;
@@ -69,6 +68,13 @@ body, html {
     padding: 0;
 }
 
+.navbar-brand {
+    padding-left: 0.5%;
+}
+
+.p-navbar {
+    padding-top: 5%;
+}
 
 /*Ohne Musik*/
 .bg-grey {
@@ -93,21 +99,31 @@ body, html {
     background-size: contain;
 }
 
-.bg-musikalische-untermalung {
-    background: #bfab8f;
-}
 
 .bg-klavierunterricht {
-    background: #c4b19e;
+    background-image: url("../images/ganzheitlicher_Klavierunterricht_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-gesangscoaching {
-    background: #e0c8bc;
+    background-image: url("../images/ganzheitliches_Gesangscoaching_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Angebote*/
 .bg-foamwhite {
     background: #eeeeee;
+}
+
+.bg-musikalische-untermalung {
+    background-image: url("../images/musikalische_untermalung_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Preise*/
@@ -116,37 +132,45 @@ body, html {
     transform: rotate(180deg);
 }
 
-.position{}
-
-.bg-preise{
-    background-color: #e6d5b8;
+.position {
 }
 
-.price-box{
+.bg-preise {
+    background-image: url("../images/Preise_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.price-box {
     max-width: 80%;
     background-color: #ffffff;
     position: relative;
     bottom: 15%;
 }
+
 /* Übermich*/
-.bg-übermich{
+.bg-übermich {
     background-color: darkgrey;
 }
 
 /*Ausbildung*/
-.bg-ausbildung{
+.bg-ausbildung {
     background-color: darkgrey;
 }
 
 /*Schülerstimmen*/
-.bg-schülerstimmen{
-    background-color: #e3c2a0;
+.bg-schülerstimmen {
+    /*background-color: #e3c2a0;*/
+    background-image: url("../images/schulerstimmen_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*kontakt*/
-.bg-kontakt{
-    background-image: url("../images/Kontakt_background.jpg") ;
-
+.bg-kontakt {
+    background-image: url("../images/Kontakt_background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
