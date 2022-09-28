@@ -19,6 +19,8 @@ function SplitText(parent, node) {
         const totalLetterSpace = ctx.measureText(line).width;
         const totalWhiteSpace = totalSpace - totalLetterSpace;
 
+        console.log(line)
+
         let spacing = (totalWhiteSpace / (line.length - 1)) - .1;
 
         div.style.letterSpacing = (spacing < 0 ? 0 : spacing) + "px";
